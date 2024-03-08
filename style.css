@@ -30,6 +30,39 @@
     background-color: #033aa1;
 }
 
+
+.btn-white {
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: white;
+    color: #1361F5;
+    border: 1px solid #55555586;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-white:hover {
+    background-color: #1361F5;
+    color: white;
+}
+
+.titulo-black {
+    font-size: 32px;
+}
+
+.Paragrafo-padrao {
+    font-size: 18px;
+    color: #223140;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.titulo-blue {
+    color: #094BCA;
+    font-size: 24px;
+}
+
 /*ESTILO DO HEADER*/
 
 header .interface {
@@ -71,4 +104,31 @@ header nav ul li a {
 .btn-get-startd-now .login a {
     color: #1361F5;
     text-decoration: none;
+}
+
+/*TOPO DO SITE*/
+.txt-topo-site .txt-titulo h1 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.txt-topo-site .txt-titulo {
+    padding: 40px 1%;
+}
+
+.txt-topo-site .txt-titulo p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 40px;
+    line-height: 25px;
+}
+
+.txt-topo-site .btn {
+    padding: 10px 1%;
+
+}
+
+.txt-topo-site .btn {
+    display: flex;
+    gap: 15px;
 }
