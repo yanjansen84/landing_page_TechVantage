@@ -1,0 +1,74 @@
+/* ESTILOP GERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 37px 4%;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-blue {
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: #1361F5;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-blue:hover {
+    background-color: #033aa1;
+}
+
+/*ESTILO DO HEADER*/
+
+header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo a {
+    font-family: "Secular One", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+    color: #1D1D1D;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+header nav ul li a {
+    color: #1D1D1D;
+    text-decoration: none;
+}
+
+.btn-get-startd-now {
+    display: flex;
+}
+
+.btn-get-startd-now .login {
+    padding: 10px 20px;
+}
+
+.btn-get-startd-now .login a {
+    color: #1361F5;
+    text-decoration: none;
+}
