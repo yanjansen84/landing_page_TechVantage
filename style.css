@@ -174,3 +174,52 @@ header nav ul li a {
     display: flex;
     gap: 20px;
 }
+
+/*Features*/
+.txt-features {
+    text-align: center;
+    justify-content: center;
+}
+
+.txt-features h2 {
+    margin-top: 40px;
+}
+
+.txt-features p {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.txt-container {
+    width: 50%;
+}
+
+.txt-container h2 {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.txt-container p {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.img-features img {
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+}
+
+.img-features {
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+}
+
+.Features .flex {
+    margin-top: 50px;
+}
