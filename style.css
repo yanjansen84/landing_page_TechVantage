@@ -225,6 +225,10 @@ header nav ul li a {
 }
 
 /*Integrations*/
+.Integrations {
+    background-image: url('assets/Rectangle\ 2.png');
+}
+
 .fundo-integrations .txt-container {
     justify-content: center;
     margin-top: 110px;
@@ -249,7 +253,7 @@ header nav ul li a {
     position: relative;
 }
 
-.container-card{
+.container-card {
     display: flex;
     gap: 20px;
 }
@@ -289,3 +293,80 @@ header nav ul li a {
     font-size: 18px;
     padding-top: 40px;
 }
+
+/*Awards*/
+.awards .flex {
+    justify-content: center;
+    padding: 40px;
+    gap: 80px;
+}
+
+.txt-awards {
+    text-align: center;
+}
+
+.txt-awards h1 {
+    color: #1361F5;
+}
+
+/*Call TO*/
+.call_to {
+    background-image: url('assets/Rectangle\ 2.png');
+}
+
+.call_to .txt-texto {
+    padding: 0 100px;
+}
+
+.call_to .txt-texto p {
+    font-size: 16px;
+    padding-bottom: 65px;
+}
+
+/*Resources_block*/
+.Resources_block h1 {
+    text-align: center;
+}
+
+.Resources_block .img_resource img {
+    border-radius: 20px 20px 0 0;
+}
+
+.card_resource {
+    margin-top: 50px;
+    box-shadow: 0px 0px 8px #5355584f;
+    border-radius: 20px;
+    width: 380px;
+    height: 348px;
+}
+.resources_content{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn-resource {
+    padding: 10px 20px;
+}
+
+.btn-resource .btn_style {
+    background-color: #b6cffde3;
+    color: #004CE6;
+    border: 0;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.txt-resource {
+    padding: 10px 20px;
+}
+
+.txt-resource .btn_style {
+    margin-top: 10px;
+    border: 0;
+    background-color: white;
+    color: #004CE6;
+    font-size: 16px;
+    font-weight: 600;
+}
+
